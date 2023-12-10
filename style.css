@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: antiquewhite;
+  }
+
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #333;
+  }
+  .tab1{
+    color:white;
+text-decoration: none;
+padding: 20px 20px;
+border-radius: 111px;
+transition: background-color 0.3s ease;
+background-color: #333;
+box-shadow: 10px 10px;
+  }
